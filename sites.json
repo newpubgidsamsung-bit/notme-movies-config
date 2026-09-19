@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793210264,
+  "updatedAt": 1789793218603,
   "sites": [
     {
       "id": "cinehd",
@@ -334,7 +334,7 @@
       "id": "hianime",
       "name": "HiAnime",
       "url": "https:\/\/hianimes.se\/home\/",
-      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/hianime-1789793209269.png",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/hianime-1789793216627.png",
       "description": "",
       "category": "anime",
       "dnsMode": "inherit",
