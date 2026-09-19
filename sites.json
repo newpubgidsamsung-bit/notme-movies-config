@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789805618125,
+  "updatedAt": 1789805628892,
   "sites": [
     {
       "id": "cinehd",
@@ -489,7 +489,8 @@
       "allSites": false,
       "siteIds": [
         "cinehd",
-        "fmovies"
+        "fmovies",
+        "einthusan"
       ],
       "proxyServers": [
         "http:\/\/101.255.45.46:8080",
