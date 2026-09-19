@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793224920,
+  "updatedAt": 1789793232460,
   "sites": [
     {
       "id": "cinehd",
@@ -416,7 +416,7 @@
       "id": "dramacool",
       "name": "DramaCool",
       "url": "https:\/\/dramacool9.com.ro\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/dramacool-1789793230918.png",
       "description": "",
       "category": "kdrama",
       "dnsMode": "inherit",
