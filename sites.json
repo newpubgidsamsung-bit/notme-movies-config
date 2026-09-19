@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789795860814,
+  "updatedAt": 1789796124443,
   "sites": [
     {
       "id": "cinehd",
@@ -482,7 +482,7 @@
     }
   ],
   "proxyUsers": [],
-  "filters": "Block s0.2mdn.net\/instream\/video\/client.js\r\nBlock imasdk.googleapis.com\/js\/core\/\r\nBlock pagead2.googlesyndication.com\/omsdk\/\r\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nAllow imasdk.googleapis.com\/js\/sdkloader\/ima3.js\r\nAllow einthusan.tv\/ajax\/movie\/watch\/\r\nAllow cdn1.einthusan.io\/\r\nAllow cdn2.einthusan.io\/\r\nAllow cdn3.einthusan.io\/",
+  "filters": "Block s0.2mdn.net\/instream\/video\/client.js\r\nBlock imasdk.googleapis.com\/js\/core\/\r\nBlock pagead2.googlesyndication.com\/omsdk\/\r\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nAllow einthusan.tv \nAllow www.einthusan.tv\nAllow imasdk.googleapis.com\/js\/sdkloader\/ima3.js\r\nAllow einthusan.tv\/ajax\/movie\/watch\/\r\nAllow cdn1.einthusan.io\/\r\nAllow cdn2.einthusan.io\/\r\nAllow cdn3.einthusan.io\/",
   "announcement": "",
   "network": {
     "generalAdBlockingEnabled": true,
