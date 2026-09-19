@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789797476734,
+  "updatedAt": 1789797666381,
   "sites": [
     {
       "id": "cinehd",
@@ -482,7 +482,7 @@
     }
   ],
   "proxyUsers": [],
-  "filters": "Block cdn2.einthusan.io\/promo\/get_premium.mp4",
+  "filters": "Block cdn2.einthusan.io\/promo\/get_premium.mp4\r\n\r\nAllow einthusan.tv\/jscache\/\r\nAllow einthusan.tv\/csscache\/\r\nAllow einthusan.tv\/ajax\/\r\nAllow einthusan.tv\/rtnotif\/\r\nAllow cdn.jsdelivr.net\/npm\/jquery\r\nAllow cdn.jsdelivr.net\/npm\/vue\r\nAllow cdn.jsdelivr.net\/npm\/platform\r\nAllow cdn.jsdelivr.net\/npm\/hls.js\r\nAllow cdn.jsdelivr.net\/npm\/screenfull\r\nAllow cdn.jsdelivr.net\/npm\/current-device\r\nAllow cmp.inmobi.com\/tcfv2\/\r\nAllow cmp.inmobi.com\/choice\/\r\nAllow fonts.googleapis.com\/css\r\nAllow fonts.gstatic.com",
   "announcement": "",
   "network": {
     "generalAdBlockingEnabled": true,
