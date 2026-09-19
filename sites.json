@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793218603,
+  "updatedAt": 1789793224920,
   "sites": [
     {
       "id": "cinehd",
@@ -375,7 +375,7 @@
       "id": "kisskh",
       "name": "KissKH",
       "url": "https:\/\/kisskh.do\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/kisskh-1789793223301.png",
       "description": "",
       "category": "kdrama",
       "dnsMode": "inherit",
