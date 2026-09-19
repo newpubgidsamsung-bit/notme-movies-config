@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793182960,
+  "updatedAt": 1789793189450,
   "sites": [
     {
       "id": "cinehd",
@@ -211,7 +211,7 @@
       "id": "spotify",
       "name": "Spotify",
       "url": "https:\/\/open.spotify.com\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/spotify-1789793187904.png",
       "description": "",
       "category": "music",
       "dnsMode": "inherit",
