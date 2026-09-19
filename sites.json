@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789798948687,
+  "updatedAt": 1789799018068,
   "sites": [
     {
       "id": "cinehd",
@@ -482,7 +482,7 @@
     }
   ],
   "proxyUsers": [],
-  "filters": "block *.doubleclick.net\/*\r\nblock pagead2.googlesyndication.com\/*\r\nblock *\/ads\/*\r\nallow example.com\/player\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
+  "filters": "allow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
   "announcement": "",
   "network": {
     "generalAdBlockingEnabled": true,
