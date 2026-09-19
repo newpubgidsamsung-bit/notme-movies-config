@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789848673846,
+  "updatedAt": 1789848720243,
   "sites": [
     {
       "id": "cinehd",
@@ -458,7 +458,7 @@
       "name": "Tinyzone",
       "url": "https:\/\/www.tinyzone.is\/",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/tinyzone-1789848420078.png",
-      "description": "Another site for movies and tvshows",
+      "description": "",
       "category": "movies",
       "dnsMode": "inherit",
       "adBlockMode": "off",
