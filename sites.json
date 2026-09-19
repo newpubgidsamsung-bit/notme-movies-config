@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789792936168,
+  "updatedAt": 1789792942373,
   "sites": [
     {
       "id": "cinehd",
@@ -460,12 +460,12 @@
       "name": "Movies"
     },
     {
-      "id": "music",
-      "name": "Music"
-    },
-    {
       "id": "anime",
       "name": "Anime"
+    },
+    {
+      "id": "music",
+      "name": "Music"
     },
     {
       "id": "kdrama",
