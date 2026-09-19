@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789803310224,
+  "updatedAt": 1789803859583,
   "sites": [
     {
       "id": "cinehd",
@@ -127,7 +127,7 @@
     },
     {
       "id": "einthusan",
-      "name": "Einthusan Malayalam",
+      "name": "Einthusan Movie",
       "url": "https:\/\/einthusan.tv\/movie\/browse\/?lang=malayalam",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/einthusan-1789793173432.png",
       "description": "",
