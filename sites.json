@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789792910297,
+  "updatedAt": 1789792936168,
   "sites": [
     {
       "id": "cinehd",
@@ -466,6 +466,10 @@
     {
       "id": "anime",
       "name": "Anime"
+    },
+    {
+      "id": "kdrama",
+      "name": "Kdrama"
     }
   ],
   "scripts": [],
