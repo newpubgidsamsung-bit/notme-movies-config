@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789805887949,
+  "updatedAt": 1789805922449,
   "sites": [
     {
       "id": "cinehd",
@@ -488,7 +488,6 @@
       "enabled": true,
       "allSites": false,
       "siteIds": [
-        "cinehd",
         "fmovies",
         "einthusan"
       ],
