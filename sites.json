@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793930087,
+  "updatedAt": 1789794019259,
   "sites": [
     {
       "id": "cinehd",
@@ -221,12 +221,12 @@
       "enabled": true,
       "cookies": [],
       "playerCompatibility": false,
-      "playerProbeCompatibility": true,
+      "playerProbeCompatibility": false,
       "deepPlayerCompatibility": false,
       "enhancedBlocking": true,
-      "regularBlockingWithEnhanced": false,
-      "chromeUa": false,
-      "desktopMode": false,
+      "regularBlockingWithEnhanced": true,
+      "chromeUa": true,
+      "desktopMode": true,
       "customUserAgent": "",
       "useWideViewPort": true,
       "loadWithOverviewMode": true,
