@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789796437879,
+  "updatedAt": 1789796916358,
   "sites": [
     {
       "id": "cinehd",
@@ -133,7 +133,7 @@
       "description": "",
       "category": "movies",
       "dnsMode": "inherit",
-      "adBlockMode": "on",
+      "adBlockMode": "inherit",
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
       "enabled": true,
@@ -141,7 +141,7 @@
       "playerCompatibility": false,
       "playerProbeCompatibility": false,
       "deepPlayerCompatibility": false,
-      "enhancedBlocking": true,
+      "enhancedBlocking": false,
       "regularBlockingWithEnhanced": false,
       "chromeUa": false,
       "desktopMode": false,
