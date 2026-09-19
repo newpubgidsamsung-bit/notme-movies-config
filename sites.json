@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793053435,
+  "updatedAt": 1789793062770,
   "sites": [
     {
       "id": "cinehd",
@@ -85,9 +85,9 @@
       "timeoutSeconds": 20
     },
     {
-      "id": "einthusan",
-      "name": "Einthusan Malayalam",
-      "url": "https:\/\/einthusan.tv\/movie\/browse\/?lang=malayalam",
+      "id": "movierulz",
+      "name": "5MovieRulz",
+      "url": "https:\/\/www.5movierulz.solutions\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -126,9 +126,9 @@
       "timeoutSeconds": 20
     },
     {
-      "id": "movierulz",
-      "name": "5MovieRulz",
-      "url": "https:\/\/www.5movierulz.solutions\/",
+      "id": "einthusan",
+      "name": "Einthusan Malayalam",
+      "url": "https:\/\/einthusan.tv\/movie\/browse\/?lang=malayalam",
       "iconUrl": "",
       "description": "",
       "category": "movies",
