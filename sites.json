@@ -1,12 +1,12 @@
 {
   "schema": 16,
-  "updatedAt": 1789793095174,
+  "updatedAt": 1789793148542,
   "sites": [
     {
       "id": "cinehd",
       "name": "CineHD",
       "url": "https:\/\/cinehd.vc\/home\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/cinehd-1789793145853.png",
       "description": "",
       "category": "movies",
       "dnsMode": "inherit",
