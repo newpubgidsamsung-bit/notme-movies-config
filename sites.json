@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789848605644,
+  "updatedAt": 1789848649765,
   "sites": [
     {
       "id": "cinehd",
@@ -89,7 +89,7 @@
       "name": "Einthusan Movie",
       "url": "https:\/\/einthusan.tv\/movie\/browse\/?lang=malayalam",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/einthusan-1789793173432.png",
-      "description": "",
+      "description": "For all indian Languages",
       "category": "movies",
       "dnsMode": "off",
       "adBlockMode": "on",
