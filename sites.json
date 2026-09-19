@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793189450,
+  "updatedAt": 1789793197875,
   "sites": [
     {
       "id": "cinehd",
@@ -252,7 +252,7 @@
       "id": "youtube-music",
       "name": "YouTube Music",
       "url": "https:\/\/music.youtube.com\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/youtube-music-1789793196274.png",
       "description": "",
       "category": "music",
       "dnsMode": "inherit",
