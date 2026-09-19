@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793062770,
+  "updatedAt": 1789793066879,
   "sites": [
     {
       "id": "cinehd",
@@ -44,9 +44,9 @@
       "timeoutSeconds": 20
     },
     {
-      "id": "fmovies",
-      "name": "FMovies",
-      "url": "https:\/\/fmoviess.org\/home\/",
+      "id": "movierulz",
+      "name": "5MovieRulz",
+      "url": "https:\/\/www.5movierulz.solutions\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -85,9 +85,9 @@
       "timeoutSeconds": 20
     },
     {
-      "id": "movierulz",
-      "name": "5MovieRulz",
-      "url": "https:\/\/www.5movierulz.solutions\/",
+      "id": "fmovies",
+      "name": "FMovies",
+      "url": "https:\/\/fmoviess.org\/home\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
