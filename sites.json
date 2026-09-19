@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789799219096,
+  "updatedAt": 1789799256461,
   "sites": [
     {
       "id": "cinehd",
@@ -132,7 +132,7 @@
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/einthusan-1789793173432.png",
       "description": "",
       "category": "movies",
-      "dnsMode": "inherit",
+      "dnsMode": "off",
       "adBlockMode": "off",
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
