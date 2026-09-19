@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789792902464,
+  "updatedAt": 1789792910297,
   "sites": [
     {
       "id": "cinehd",
@@ -462,6 +462,10 @@
     {
       "id": "music",
       "name": "Music"
+    },
+    {
+      "id": "anime",
+      "name": "Anime"
     }
   ],
   "scripts": [],
