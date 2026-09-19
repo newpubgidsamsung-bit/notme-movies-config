@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789801518974,
+  "updatedAt": 1789803310224,
   "sites": [
     {
       "id": "cinehd",
@@ -490,10 +490,10 @@
     "dnsDohUrl": "https:\/\/dns.adguard-dns.com\/dns-query"
   },
   "appUpdate": {
-    "latestVersionCode": 0,
-    "latestVersionName": "",
+    "latestVersionCode": 51,
+    "latestVersionName": "1.4.1",
     "minimumVersionCode": 0,
-    "updateUrl": "",
+    "updateUrl": "https:\/\/github.com\/newpubgidsamsung-bit\/NotmeMovies\/releases\/download\/1.4.1\/NotmeMovies.apk",
     "alternateUpdateUrl": "",
     "minimumInAppUpdaterVersionCode": 0,
     "changelog": ""
