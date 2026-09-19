@@ -1,11 +1,11 @@
 {
   "schema": 16,
-  "updatedAt": 1789789478518,
+  "updatedAt": 1789792882263,
   "sites": [
     {
       "id": "cinehd",
       "name": "CineHD",
-      "url": "https://cinehd.vc/home/",
+      "url": "https:\/\/cinehd.vc\/home\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -46,7 +46,7 @@
     {
       "id": "fmovies",
       "name": "FMovies",
-      "url": "https://fmoviess.org/home/",
+      "url": "https:\/\/fmoviess.org\/home\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -87,7 +87,7 @@
     {
       "id": "einthusan",
       "name": "Einthusan Malayalam",
-      "url": "https://einthusan.tv/movie/browse/?lang=malayalam",
+      "url": "https:\/\/einthusan.tv\/movie\/browse\/?lang=malayalam",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -128,7 +128,7 @@
     {
       "id": "movierulz",
       "name": "5MovieRulz",
-      "url": "https://www.5movierulz.solutions/",
+      "url": "https:\/\/www.5movierulz.solutions\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -169,7 +169,7 @@
     {
       "id": "ogomovies",
       "name": "OgoMovies",
-      "url": "https://ogomovies1.com.pk/",
+      "url": "https:\/\/ogomovies1.com.pk\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -210,7 +210,7 @@
     {
       "id": "aniwaves",
       "name": "AniWaves",
-      "url": "https://aniwaves.ru/home/",
+      "url": "https:\/\/aniwaves.ru\/home\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -251,7 +251,7 @@
     {
       "id": "hianime",
       "name": "HiAnime",
-      "url": "https://hianimes.se/home/",
+      "url": "https:\/\/hianimes.se\/home\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -292,7 +292,7 @@
     {
       "id": "dramacool",
       "name": "DramaCool",
-      "url": "https://dramacool9.com.ro/",
+      "url": "https:\/\/dramacool9.com.ro\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -333,7 +333,7 @@
     {
       "id": "kisskh",
       "name": "KissKH",
-      "url": "https://kisskh.do/",
+      "url": "https:\/\/kisskh.do\/",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -374,7 +374,7 @@
     {
       "id": "spotify",
       "name": "Spotify",
-      "url": "https://open.spotify.com/",
+      "url": "https:\/\/open.spotify.com\/",
       "iconUrl": "",
       "description": "",
       "category": "music",
@@ -415,7 +415,7 @@
     {
       "id": "youtube-music",
       "name": "YouTube Music",
-      "url": "https://music.youtube.com/",
+      "url": "https:\/\/music.youtube.com\/",
       "iconUrl": "",
       "description": "",
       "category": "music",
@@ -470,8 +470,8 @@
   "announcement": "",
   "network": {
     "generalAdBlockingEnabled": true,
-    "dnsEnabled": false,
-    "dnsDohUrl": "https://dns.adguard-dns.com/dns-query"
+    "dnsEnabled": true,
+    "dnsDohUrl": "https:\/\/dns.adguard-dns.com\/dns-query"
   },
   "appUpdate": {
     "latestVersionCode": 0,
