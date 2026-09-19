@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789792882263,
+  "updatedAt": 1789792902464,
   "sites": [
     {
       "id": "cinehd",
@@ -457,7 +457,7 @@
   "categories": [
     {
       "id": "movies",
-      "name": "Video"
+      "name": "Movies"
     },
     {
       "id": "music",
