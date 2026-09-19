@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789798919929,
+  "updatedAt": 1789798948687,
   "sites": [
     {
       "id": "cinehd",
@@ -482,7 +482,7 @@
     }
   ],
   "proxyUsers": [],
-  "filters": "",
+  "filters": "block *.doubleclick.net\/*\r\nblock pagead2.googlesyndication.com\/*\r\nblock *\/ads\/*\r\nallow example.com\/player\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
   "announcement": "",
   "network": {
     "generalAdBlockingEnabled": true,
