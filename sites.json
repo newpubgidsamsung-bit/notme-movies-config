@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789793148542,
+  "updatedAt": 1789793155488,
   "sites": [
     {
       "id": "cinehd",
@@ -47,7 +47,7 @@
       "id": "movierulz",
       "name": "5MovieRulz",
       "url": "https:\/\/www.5movierulz.solutions\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/movierulz-1789793153571.png",
       "description": "",
       "category": "movies",
       "dnsMode": "inherit",
