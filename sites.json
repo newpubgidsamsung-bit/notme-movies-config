@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789919131382,
+  "updatedAt": 1789919137890,
   "sites": [
     {
       "id": "cinehd",
@@ -545,7 +545,7 @@
       "description": "",
       "category": "bigboss",
       "dnsMode": "inherit",
-      "adBlockMode": "inherit",
+      "adBlockMode": "off",
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
       "enabled": true,
