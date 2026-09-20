@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789919740244,
+  "updatedAt": 1789923303208,
   "sites": [
     {
       "id": "cinehd",
@@ -46,7 +46,7 @@
     {
       "id": "movierulz",
       "name": "Indian Movies",
-      "url": "https:\/\/www.5movierulz.solutions\/",
+      "url": "https:\/\/www.5movierulz.fitness\/",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/movierulz-1789793153571.png",
       "description": "in all indian language",
       "category": "movies",
