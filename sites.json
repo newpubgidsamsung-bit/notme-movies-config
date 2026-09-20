@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1789848720243,
+  "updatedAt": 1789867365415,
   "sites": [
     {
       "id": "cinehd",
@@ -275,7 +275,9 @@
       "customTabMode": false,
       "allowSignInRedirects": true,
       "googleAuthRedirects": true,
-      "navigationAllowHosts": [],
+      "navigationAllowHosts": [
+        "youtube.com\/*"
+      ],
       "secureExternalAuth": false,
       "externalAuthRules": [],
       "passwordlessEmailAuth": false,
