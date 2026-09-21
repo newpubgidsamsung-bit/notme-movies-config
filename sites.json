@@ -1,6 +1,6 @@
 {
   "schema": 16,
-  "updatedAt": 1790012359218,
+  "updatedAt": 1790012491380,
   "sites": [
     {
       "id": "cinehd",
@@ -169,7 +169,7 @@
     {
       "id": "ogomovies",
       "name": "OgoMovies",
-      "url": "https:\/\/ogomovies1.com.pk\/",
+      "url": "https:\/\/ogomovies.dev\/",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/ogomovies-1789793181177.png",
       "description": "",
       "category": "movies",
