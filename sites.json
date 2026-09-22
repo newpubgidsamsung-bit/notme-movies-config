@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790063307890,
+  "updatedAt": 1790063312288,
   "sites": [
     {
       "id": "cinehd",
@@ -759,7 +759,7 @@
       "id": "stremio.comet.fast",
       "name": "Comet",
       "manifestUrl": "https:\/\/cometfortheweebs.midnightignite.me\/manifest.json",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "community.opensubtitlesv3.pro",
