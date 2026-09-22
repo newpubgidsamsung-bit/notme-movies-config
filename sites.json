@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790054717395,
+  "updatedAt": 1790062325275,
   "sites": [
     {
       "id": "cinehd",
@@ -599,6 +599,10 @@
     {
       "id": "bigboss",
       "name": "BigBoss"
+    },
+    {
+      "id": "youtube",
+      "name": "Youtube"
     }
   ],
   "scripts": [
