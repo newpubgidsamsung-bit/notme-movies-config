@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790063312288,
+  "updatedAt": 1790063315001,
   "sites": [
     {
       "id": "cinehd",
@@ -753,7 +753,7 @@
       "id": "com.stremio.thepiratebay.plus",
       "name": "ThePirateBay+",
       "manifestUrl": "https:\/\/thepiratebay-plus.strem.fun\/manifest.json",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "stremio.comet.fast",
