@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790039596688,
+  "updatedAt": 1790039998643,
   "sites": [
     {
       "id": "cinehd",
@@ -683,7 +683,7 @@
       "id": "com.stremio.indianstreamcatalog",
       "name": "Indian Regional Catalog",
       "manifestUrl": "https:\/\/83e20802dcf1-indian-streams.baby-beamup.club\/eyJjYXRhbG9ncyI6WyJ0ZSIsImhpIiwibWwiLCJndSIsImtuIiwiaGluZGlfZHViYmVkIiwibXIiLCJwYSIsImJuIiwidGEiLCJ0ZV9zZXJpZXMiLCJoaV9zZXJpZXMiLCJtcl9zZXJpZXMiLCJtbF9zZXJpZXMiLCJrbl9zZXJpZXMiLCJndV9zZXJpZXMiLCJwYV9zZXJpZXMiLCJibl9zZXJpZXMiLCJ0YV9zZXJpZXMiLCJvdHRfcmVsZWFzZXMiXSwiaW5jbHVkZVRoZWF0cmljYWwiOnRydWV9\/manifest.json",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "community.bharatbinge",
