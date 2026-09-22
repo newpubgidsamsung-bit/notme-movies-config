@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790038504596,
+  "updatedAt": 1790039028651,
   "sites": [
     {
       "id": "cinehd",
@@ -672,7 +672,14 @@
       "featureOverrides": {}
     }
   ],
-  "stremioAddons": [],
+  "stremioAddons": [
+    {
+      "id": "org.fayallc.hyper",
+      "name": "Hyper (org)",
+      "manifestUrl": "https:\/\/hyper.stravo.site\/local:org:@display=compact\/manifest.json",
+      "enabled": true
+    }
+  ],
   "filters": "block *.doubleclick.net\/*\nblock pagead2.googlesyndication.com\/*\nblock *\/ads\/*\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nallow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
   "announcement": "",
   "network": {
