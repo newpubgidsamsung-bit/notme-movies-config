@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790062886692,
+  "updatedAt": 1790063303911,
   "sites": [
     {
       "id": "cinehd",
@@ -771,6 +771,12 @@
       "id": "webstreamr-mbg",
       "name": "WebStreamrMBG",
       "manifestUrl": "https:\/\/87d6a6ef6b58-webstreamrmbg.baby-beamup.club\/%7B%22multi%22%3A%22on%22%7D\/manifest.json",
+      "enabled": true
+    },
+    {
+      "id": "stremio.addons.mediafusion-elfhosted",
+      "name": "MediaFusion | ElfHosted",
+      "manifestUrl": "https:\/\/mediafusion.elfhosted.com\/D-hRJ42A4HAJ7DlJBwbg5URcrHuK4IzRXQUVYk9iFxhjtu4oKBCS30o8j9kQ3M9WFeAX78HX6lRtMiR5T2GcoS8l9sW_tzauERA7xdzt6w6O_aIwzgThZVKPy5ay4YJdkTtJQMzi9CM9nuoWLkLyAbky-56tnsWcTnPRQNQgJFgBcTQfaUd4u5oq_53VyPAg7tqks1QyIWCAudoQsRn7EimiWoHoT7GJMgVQ6i9BrnyZ2mxYxCdzn0j_YE5AGKoCUf2FPQckAwtLBUgLWahOeCPvlXvcksvdxRMchAe-xFCC5geQVPXtgZTAfZiSlednk_zILTU19o8YD4z9aobQFIuI4-3nRkwQMAVyAjQ4C--uq3RG0fc-ilwZR23i4goauxJ9H9J-esnRx7R1qJGSpW8fvrWg2MpnJPVxZ8xuK7-CirggDSEeVOuTI4W5-3w-8uwhUt26pq4192i-PpowymgMkcbQTrmbBNtzmtwRUBkjEK76hSkRFIY-7EyV_Z1GQnYZom9Y_YNe1Q6pOISyItmuH0KhTsQ8ArZTj4-5H36ZQl89BBS9B1J-g8EWQTK_ExbXZ-GObq0OXT7nkkyWlhIr8u5WClXQY02RW39hzqF0qAJe2Iy0pEphU_j4U-p7F7LOX-ZZVi-FYCdiPBq83wSOa5YV1YX6dRJ3PwePAxPHRumCx6btdQmmoOvvlCbjbZOkCQcLd0IaGIVibvCzHM9APFLtbK6b87jCcYYJMmQXw_K4E2T7tzFJ287allfZDzYUj59BDDOzIG6N3cUbksnQFo3L2kS6L6aAgiGxtd9YjSpx9-BEL1-Jj5ZlzoK8HsMo8VAsZzY-KFBS4bqzio1uHCczlpX7QxJkl3CwtD35zGm0sr6WL9Otg_prxj4o3veJjjRzHFipQY4GitVERmODPQohokXRIkARru1U7nFwG3EsX0JkkjTEGfcy3QZwQzq2QLmoch4ayT3UCFQ26ynp0NI7MIy9sTi0weBTABNcW9GyDZ75WJRTKf2sdvxHeIaRPfvz5FmIknyuQEj7JLhw\/manifest.json",
       "enabled": true
     }
   ],
