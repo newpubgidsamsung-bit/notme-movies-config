@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790049436463,
+  "updatedAt": 1790049617924,
   "sites": [
     {
       "id": "cinehd",
@@ -707,6 +707,12 @@
       "id": "com.stremio.thepiratebay.plus",
       "name": "ThePirateBay+",
       "manifestUrl": "https:\/\/thepiratebay-plus.strem.fun\/manifest.json",
+      "enabled": true
+    },
+    {
+      "id": "community.opensubtitlesv3.pro",
+      "name": "subtitles",
+      "manifestUrl": "https:\/\/opensubtitlesv3-pro.dexter21767.com\/eyJsYW5ncyI6WyJlbmdsaXNoIl0sInNvdXJjZSI6ImFsbCIsImFpVHJhbnNsYXRlZCI6dHJ1ZSwiYXV0b0FkanVzdG1lbnQiOmZhbHNlfQ==\/manifest.json",
       "enabled": true
     }
   ],
