@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790039263203,
+  "updatedAt": 1790039443128,
   "sites": [
     {
       "id": "cinehd",
@@ -683,7 +683,7 @@
       "id": "com.stremio.indianstreamcatalog",
       "name": "Indian Regional Catalog",
       "manifestUrl": "https:\/\/83e20802dcf1-indian-streams.baby-beamup.club\/eyJjYXRhbG9ncyI6WyJ0ZSIsImhpIiwibWwiLCJndSIsImtuIiwiaGluZGlfZHViYmVkIiwibXIiLCJwYSIsImJuIiwidGEiLCJ0ZV9zZXJpZXMiLCJoaV9zZXJpZXMiLCJtcl9zZXJpZXMiLCJtbF9zZXJpZXMiLCJrbl9zZXJpZXMiLCJndV9zZXJpZXMiLCJwYV9zZXJpZXMiLCJibl9zZXJpZXMiLCJ0YV9zZXJpZXMiLCJvdHRfcmVsZWFzZXMiXSwiaW5jbHVkZVRoZWF0cmljYWwiOnRydWV9\/manifest.json",
-      "enabled": true
+      "enabled": false
     }
   ],
   "filters": "block *.doubleclick.net\/*\nblock pagead2.googlesyndication.com\/*\nblock *\/ads\/*\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nallow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
