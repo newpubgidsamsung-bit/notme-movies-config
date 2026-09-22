@@ -1,6 +1,6 @@
 {
-  "schema": 16,
-  "updatedAt": 1790027093941,
+  "schema": 17,
+  "updatedAt": 1790037801799,
   "sites": [
     {
       "id": "cinehd",
@@ -711,6 +711,14 @@
         "http:\/\/165.101.231.92:8090"
       ],
       "featureOverrides": {}
+    }
+  ],
+  "stremioAddons": [
+    {
+      "id": "com.stremio.indianstreamcatalog",
+      "name": "streamio",
+      "manifestUrl": "https:\/\/83e20802dcf1-indian-streams.baby-beamup.club\/eyJjYXRhbG9ncyI6WyJ0ZSIsImhpIiwibWwiLCJndSIsImtuIiwiaGluZGlfZHViYmVkIiwibXIiLCJwYSIsImJuIiwidGEiLCJ0ZV9zZXJpZXMiLCJoaV9zZXJpZXMiLCJtcl9zZXJpZXMiLCJtbF9zZXJpZXMiLCJrbl9zZXJpZXMiLCJndV9zZXJpZXMiLCJwYV9zZXJpZXMiLCJibl9zZXJpZXMiLCJ0YV9zZXJpZXMiLCJvdHRfcmVsZWFzZXMiXSwiaW5jbHVkZVRoZWF0cmljYWwiOnRydWV9\/manifest.json",
+      "enabled": true
     }
   ],
   "filters": "block *.doubleclick.net\/*\nblock pagead2.googlesyndication.com\/*\nblock *\/ads\/*\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nallow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
