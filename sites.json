@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790062390450,
+  "updatedAt": 1790062532496,
   "sites": [
     {
       "id": "cinehd",
@@ -597,7 +597,7 @@
       "enhancedBlocking": false,
       "regularBlockingWithEnhanced": false,
       "chromeUa": false,
-      "desktopMode": false,
+      "desktopMode": true,
       "customUserAgent": "",
       "useWideViewPort": true,
       "loadWithOverviewMode": true,
