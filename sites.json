@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790062821500,
+  "updatedAt": 1790062825536,
   "sites": [
     {
       "id": "cinehd",
@@ -729,7 +729,7 @@
       "id": "org.fayallc.hyper",
       "name": "Hyper (org)",
       "manifestUrl": "https:\/\/hyper.stravo.site\/local:org:@display=compact\/manifest.json",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "com.stremio.indianstreamcatalog",
