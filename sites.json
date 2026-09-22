@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790062361001,
+  "updatedAt": 1790062372685,
   "sites": [
     {
       "id": "cinehd",
@@ -584,7 +584,7 @@
       "url": "https:\/\/www.youtube.com",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/youtube-1790062343201.jpg",
       "description": "",
-      "category": "movies",
+      "category": "youtube",
       "dnsMode": "inherit",
       "adBlockMode": "inherit",
       "popupBlockMode": "inherit",
