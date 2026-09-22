@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790062605352,
+  "updatedAt": 1790062814464,
   "sites": [
     {
       "id": "cinehd",
@@ -765,6 +765,12 @@
       "id": "community.opensubtitlesv3.pro",
       "name": "subtitles",
       "manifestUrl": "https:\/\/opensubtitlesv3-pro.dexter21767.com\/eyJsYW5ncyI6WyJlbmdsaXNoIl0sInNvdXJjZSI6ImFsbCIsImFpVHJhbnNsYXRlZCI6dHJ1ZSwiYXV0b0FkanVzdG1lbnQiOmZhbHNlfQ==\/manifest.json",
+      "enabled": true
+    },
+    {
+      "id": "webstreamr-mbg",
+      "name": "WebStreamrMBG",
+      "manifestUrl": "https:\/\/87d6a6ef6b58-webstreamrmbg.baby-beamup.club\/%7B%22multi%22%3A%22on%22%7D\/manifest.json",
       "enabled": true
     }
   ],
