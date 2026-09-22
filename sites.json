@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790054534411,
+  "updatedAt": 1790054615502,
   "sites": [
     {
       "id": "cinehd",
@@ -726,7 +726,7 @@
   "appUpdate": {
     "latestVersionCode": 53,
     "latestVersionName": "1.5",
-    "minimumVersionCode": 0,
+    "minimumVersionCode": 53,
     "updateUrl": "https:\/\/github.com\/newpubgidsamsung-bit\/NotmeMovies\/releases\/download\/1.5\/NotmeMovies.apk",
     "alternateUpdateUrl": "",
     "minimumInAppUpdaterVersionCode": 0,
