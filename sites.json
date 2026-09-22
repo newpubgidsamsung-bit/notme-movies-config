@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790049409973,
+  "updatedAt": 1790049417037,
   "sites": [
     {
       "id": "cinehd",
@@ -701,7 +701,7 @@
       "id": "stremio.comet.fast",
       "name": "Comet",
       "manifestUrl": "https:\/\/cometfortheweebs.midnightignite.me\/manifest.json",
-      "enabled": true
+      "enabled": false
     }
   ],
   "filters": "block *.doubleclick.net\/*\nblock pagead2.googlesyndication.com\/*\nblock *\/ads\/*\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nallow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
