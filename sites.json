@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790043694636,
+  "updatedAt": 1790043775467,
   "sites": [
     {
       "id": "cinehd",
@@ -695,6 +695,12 @@
       "id": "pw.ers.netflix-catalog",
       "name": "Streaming Catalogs",
       "manifestUrl": "https:\/\/7a82163c306e-stremio-netflix-catalog-addon.baby-beamup.club\/bmZ4LGRucCxhbXAsYXRwLGhibSxwbXAscGNwLGhsdSxtZ2wsY3J1LHplZSxqaHMsc3N0LHZpbCxubHosc29ueWxpdixzZ28sdmlrLGNwZCxzdHosZHBlLG1iaSxtcDksc2hkLGFjdCxiYm8saXFpLGl0dixjcmMsYmJjLHNoYSxjdHMsY2x2LG5mayxnb3AsYWw0Ojo6MTc5MDA0MDQzOTQ3NjowOjA6Q0E%3D\/manifest.json",
+      "enabled": true
+    },
+    {
+      "id": "stremio.comet.fast",
+      "name": "Comet",
+      "manifestUrl": "https:\/\/cometfortheweebs.midnightignite.me\/manifest.json",
       "enabled": true
     }
   ],
