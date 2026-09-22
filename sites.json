@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790063366313,
+  "updatedAt": 1790063368996,
   "sites": [
     {
       "id": "cinehd",
@@ -771,7 +771,7 @@
       "id": "webstreamr-mbg",
       "name": "WebStreamrMBG",
       "manifestUrl": "https:\/\/87d6a6ef6b58-webstreamrmbg.baby-beamup.club\/%7B%22multi%22%3A%22on%22%7D\/manifest.json",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "stremio.addons.mediafusion-elfhosted",
