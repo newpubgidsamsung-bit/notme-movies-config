@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790042691401,
+  "updatedAt": 1790042727238,
   "sites": [
     {
       "id": "cinehd",
@@ -701,7 +701,7 @@
       "id": "com.stremio.torrentio.addon",
       "name": "Torrentio",
       "manifestUrl": "https:\/\/torrentio.strem.fun\/manifest.json",
-      "enabled": false
+      "enabled": true
     }
   ],
   "filters": "block *.doubleclick.net\/*\nblock pagead2.googlesyndication.com\/*\nblock *\/ads\/*\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nallow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
