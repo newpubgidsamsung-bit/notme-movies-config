@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790049828539,
+  "updatedAt": 1790054534411,
   "sites": [
     {
       "id": "cinehd",
@@ -724,12 +724,12 @@
     "dnsDohUrl": "https:\/\/dns.adguard-dns.com\/dns-query"
   },
   "appUpdate": {
-    "latestVersionCode": 51,
-    "latestVersionName": "1.4.1",
+    "latestVersionCode": 53,
+    "latestVersionName": "1.5",
     "minimumVersionCode": 0,
-    "updateUrl": "https:\/\/github.com\/newpubgidsamsung-bit\/NotmeMovies\/releases\/download\/1.4.1\/NotmeMovies.apk",
+    "updateUrl": "https:\/\/github.com\/newpubgidsamsung-bit\/NotmeMovies\/releases\/download\/1.5\/NotmeMovies.apk",
     "alternateUpdateUrl": "",
     "minimumInAppUpdaterVersionCode": 0,
-    "changelog": ""
+    "changelog": "Major Update!!!\n●Added streamio\n●You can now search for movies!!!\n●Fixed issue with users who had navbar \n●Faster site loadings!\n●More plugins and features coming soon."
   }
 }
