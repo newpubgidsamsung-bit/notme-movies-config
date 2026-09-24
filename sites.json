@@ -1,6 +1,6 @@
 {
   "schema": 17,
-  "updatedAt": 1790271622167,
+  "updatedAt": 1790276422712,
   "sites": [
     {
       "id": "cinehd",
@@ -295,7 +295,7 @@
       "id": "aniwaves",
       "name": "AniWaves",
       "url": "https:\/\/aniwaves.ru\/home\/",
-      "iconUrl": "",
+      "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/aniwaves-1790276420490.png",
       "description": "",
       "category": "anime",
       "dnsMode": "inherit",
