@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1790390809044,
+  "updatedAt": 1790391027853,
   "sites": [
     {
       "id": "cinehd",
@@ -423,7 +423,7 @@
       "category": "kdrama",
       "dnsMode": "inherit",
       "adBlockMode": "off",
-      "popupBlockMode": "inherit",
+      "popupBlockMode": "off",
       "redirectProtectionMode": "inherit",
       "enabled": true,
       "cookies": [],
@@ -800,7 +800,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "0532CC00A69428F8",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEHd6xg4CkiKbTfg6wH3ADS37ukVhJE5s3rRCdLqYPaNMZ3adiwWrTWvbL21uM+uSGbIOVf9r9D1JkPZ5KO3zSLw==",
-    "signedAt": 1790390809047,
-    "signature": "MEQCIFV3MkdQykfLA5CzwmpsAlo9tX08e4c8Jqh24DV\/fscpAiB9CjYxYOXCqNl+pnvO0Hq1YPpPAZOrCI4Ycf3E1366IQ=="
+    "signedAt": 1790391027856,
+    "signature": "MEUCIGGcpwW1lAP3OfGn2dxiS999pIl\/ZT1OSw35NckKbSkTAiEA5NMV9ElnekFAjpRDNiIMmpZXpr583lxFo6S2Dl4TQtI="
   }
 }
