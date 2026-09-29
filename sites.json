@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1790640688654,
+  "updatedAt": 1790640789205,
   "sites": [
     {
       "id": "cinehd",
@@ -598,18 +598,18 @@
       "redirectProtectionMode": "inherit",
       "enabled": true,
       "cookies": [],
-      "playerCompatibility": false,
-      "playerProbeCompatibility": false,
-      "deepPlayerCompatibility": false,
+      "playerCompatibility": true,
+      "playerProbeCompatibility": true,
+      "deepPlayerCompatibility": true,
       "enhancedBlocking": false,
       "regularBlockingWithEnhanced": false,
-      "chromeUa": false,
+      "chromeUa": true,
       "desktopMode": false,
       "customUserAgent": "",
       "useWideViewPort": true,
       "loadWithOverviewMode": true,
-      "allowProtectedMedia": false,
-      "customTabMode": false,
+      "allowProtectedMedia": true,
+      "customTabMode": true,
       "allowSignInRedirects": true,
       "googleAuthRedirects": true,
       "navigationAllowHosts": [],
@@ -817,7 +817,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1790640688657,
-    "signature": "MEUCIGSdeTEESksckV1ANqI6K4wpwuxx1yYK5+6lVpDg44USAiEAossBAvT1zY4Cs\/dh+928NKvTi+n9hXdILLmEd3qWdl4="
+    "signedAt": 1790640789208,
+    "signature": "MEUCIQCkgWdLon+aB+ygyB7X1gAC+Gc8XP36AaNkrICYyjG6TAIgVqbT+W70lTqwHBigDrLlJLTtHetR8JFaN01CenkSQf0="
   }
 }
