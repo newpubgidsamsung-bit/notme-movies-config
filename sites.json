@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1790640789205,
+  "updatedAt": 1790640820047,
   "sites": [
     {
       "id": "cinehd",
@@ -609,7 +609,7 @@
       "useWideViewPort": true,
       "loadWithOverviewMode": true,
       "allowProtectedMedia": true,
-      "customTabMode": true,
+      "customTabMode": false,
       "allowSignInRedirects": true,
       "googleAuthRedirects": true,
       "navigationAllowHosts": [],
@@ -817,7 +817,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1790640789208,
-    "signature": "MEUCIQCkgWdLon+aB+ygyB7X1gAC+Gc8XP36AaNkrICYyjG6TAIgVqbT+W70lTqwHBigDrLlJLTtHetR8JFaN01CenkSQf0="
+    "signedAt": 1790640820050,
+    "signature": "MEYCIQDbFpRRTmsot\/xGC96aitsb3KI3+b8K7xHMqA6+QlwJGgIhAKRf2a12XZTfyNs98LbpB\/OZVUNzgIx20wlsdSF1qEoe"
   }
 }
