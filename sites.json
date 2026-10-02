@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1790899605267,
+  "updatedAt": 1790899983583,
   "sites": [
     {
       "id": "cinehd",
@@ -805,19 +805,19 @@
     "openSubtitlesApiKey": "Uwf4RI3joZjfqPmK4JhV88XVIjBQ3xrr"
   },
   "appUpdate": {
-    "latestVersionCode": 54,
-    "latestVersionName": "1.5.1",
-    "minimumVersionCode": 54,
+    "latestVersionCode": 55,
+    "latestVersionName": "1.5.2",
+    "minimumVersionCode": 55,
     "updateUrl": "https:\/\/github.com\/newpubgidsamsung-bit\/NotmeMovies\/releases\/download\/1.5\/NotmeMovies.apk",
     "alternateUpdateUrl": "",
     "minimumInAppUpdaterVersionCode": 0,
-    "changelog": "Major Update!!!\n● Now you can download Movies and shows\n● You can now create different profiles!!!\n● You can now export watch history and other securely over devices\n● Fixed issues with tv player\n●Faster site loadings!"
+    "changelog": "Patches and fixes\n● Fixed issue with youtube misalignment \n● Fixed issue with some device fails to load sites \n● Improved security and player stability\n● Fixed playback button iressponsiveness"
   },
   "configSecurity": {
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1790899605270,
-    "signature": "MEYCIQDXrI21YKk4CkfLPIDLGlPJ4piW7\/rwiJwixj4GuFoxlQIhAL1OhruduhBdxvABpviQvwbJvevoUb4GAv41gpuK0myq"
+    "signedAt": 1790899983586,
+    "signature": "MEUCIFvXWipClJ\/w8+fHWL0ZTXL\/cDe18fo72EVFU\/w3Rg0aAiEA\/5Cfw\/jTGbA2aAz\/jMH0P8sp48mrFgKF2aEdf5Qd1mA="
   }
 }
