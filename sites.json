@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1790900045426,
+  "updatedAt": 1790900468148,
   "sites": [
     {
       "id": "cinehd",
@@ -805,9 +805,9 @@
     "openSubtitlesApiKey": "Uwf4RI3joZjfqPmK4JhV88XVIjBQ3xrr"
   },
   "appUpdate": {
-    "latestVersionCode": 54,
-    "latestVersionName": "1.5.1",
-    "minimumVersionCode": 54,
+    "latestVersionCode": 55,
+    "latestVersionName": "1.5.2",
+    "minimumVersionCode": 55,
     "updateUrl": "https:\/\/github.com\/newpubgidsamsung-bit\/NotmeMovies\/releases\/download\/1.5\/NotmeMovies.apk",
     "alternateUpdateUrl": "",
     "minimumInAppUpdaterVersionCode": 0,
@@ -817,7 +817,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1790900045429,
-    "signature": "MEUCIGnlpJCI+lg13VLgNi1U2WpwNt50bxJ2JkVWXLB+YK9qAiEAkkSf9+tascpjB4hXqgGcNGSeJCTtCOYpAOPldq6+4M8="
+    "signedAt": 1790900468151,
+    "signature": "MEQCIGeu4psqF+YEL3P7MrFlvZtuSJve6xMYHwksqs+gpFW2AiAQy8MAUQoktPMtj\/MiLhKAWVSQGLFe\/2OwdLboHyNrig=="
   }
 }
