@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1791222945864,
+  "updatedAt": 1791222980226,
   "sites": [
     {
       "id": "cinehd",
@@ -642,7 +642,7 @@
       "playerCompatibility": false,
       "playerProbeCompatibility": false,
       "deepPlayerCompatibility": false,
-      "enhancedBlocking": false,
+      "enhancedBlocking": true,
       "regularBlockingWithEnhanced": false,
       "chromeUa": false,
       "desktopMode": false,
@@ -862,7 +862,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1791222945868,
-    "signature": "MEUCIGVeuo4KSujX8WLXC1YSJ5h+YkRG1gkPWH1k4zOXGPM3AiEAkzI0VsBzqSZuYc7VAu8qnx9Hep2LeC9vbA2agD48geg="
+    "signedAt": 1791222980237,
+    "signature": "MEYCIQDpjFdd6Vj0rtVrDM4Qs97d1JuGFsuaFbn+FWdfbWwtVQIhAJ9DopFncKTQA1Ay2o+LWcaA0TB4nPV\/ehCjxKfxx7s2"
   }
 }
