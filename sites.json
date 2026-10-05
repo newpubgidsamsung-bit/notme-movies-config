@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1791225915353,
+  "updatedAt": 1791225928187,
   "sites": [
     {
       "id": "cinehd",
@@ -673,7 +673,7 @@
       "url": "https:\/\/archiveofourown.org\/",
       "iconUrl": "",
       "description": "",
-      "category": "movies",
+      "category": "manga",
       "dnsMode": "inherit",
       "adBlockMode": "inherit",
       "popupBlockMode": "inherit",
@@ -910,7 +910,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1791225915358,
-    "signature": "MEQCIEcHXSAF1JaNOTF23dEePs+zlrJKtQP9jtDyBx8534c9AiB6af\/HHyxnCZvnoUvYvNfF\/KXguJmg36DkVLPMkldDsQ=="
+    "signedAt": 1791225928193,
+    "signature": "MEUCIQCSKBqCsrANUaruE5QpIdH2+ZsHs0pK+fccayL1p6SCPAIgIjuA2e7aaZAc5JsZVS\/vnKemtTPf19pbfnfsMpPO8Tg="
   }
 }
