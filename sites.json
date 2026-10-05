@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1791225928187,
+  "updatedAt": 1791225939864,
   "sites": [
     {
       "id": "cinehd",
@@ -675,7 +675,7 @@
       "description": "",
       "category": "manga",
       "dnsMode": "inherit",
-      "adBlockMode": "inherit",
+      "adBlockMode": "off",
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
       "enabled": true,
@@ -910,7 +910,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1791225928193,
-    "signature": "MEUCIQCSKBqCsrANUaruE5QpIdH2+ZsHs0pK+fccayL1p6SCPAIgIjuA2e7aaZAc5JsZVS\/vnKemtTPf19pbfnfsMpPO8Tg="
+    "signedAt": 1791225939872,
+    "signature": "MEQCIFdhmNBucZy0x0t\/ZUMIgs+KSWe40wC4tyPydZjiobYYAiB9wGaLEh9Qlk5U2qjHFH2R3IzuI4+3KwGg9By8QqcUHg=="
   }
 }
