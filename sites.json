@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792090502542,
+  "updatedAt": 1792090531663,
   "sites": [
     {
       "id": "cinehd",
@@ -747,9 +747,9 @@
         "movierulz"
       ],
       "cookies": [],
-      "playerCompatibility": false,
-      "playerProbeCompatibility": false,
-      "deepPlayerCompatibility": false,
+      "playerCompatibility": true,
+      "playerProbeCompatibility": true,
+      "deepPlayerCompatibility": true,
       "enhancedBlocking": false,
       "regularBlockingWithEnhanced": false,
       "chromeUa": false,
@@ -977,7 +977,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792090502545,
-    "signature": "MEUCIQCAs\/vf1StEUjE9HFDvCQDhG0Li9b4Mfw1wZU+titKPNQIgSwEz0VCyVHuPxsGXQchgI7zlnaHawSpgwYsLfQ6SSJI="
+    "signedAt": 1792090531666,
+    "signature": "MEUCIF5qkSJ8Efws\/V+Lk1QfDMaluizKe3xOfsLt\/MdTNucJAiEA7Au9bzqDNb\/PKbuKtFsWJneoJDxjER\/72D+WyCyTLA0="
   }
 }
