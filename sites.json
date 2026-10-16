@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792181656996,
+  "updatedAt": 1792193533910,
   "sites": [
     {
       "id": "cinehd",
@@ -47,7 +47,7 @@
     {
       "id": "movierulz",
       "name": "Indian Movies",
-      "url": "https:\/\/www.5movierulz.fitness\/",
+      "url": "https:\/\/www.5movierulz.recipes\/",
       "iconUrl": "https:\/\/raw.githubusercontent.com\/newpubgidsamsung-bit\/notme-movies-config\/main\/site-icons\/movierulz-1789793153571.png",
       "description": "in all indian language",
       "category": "movies",
@@ -977,7 +977,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792181656999,
-    "signature": "MEYCIQDVt84j5bmBzeIGHvgSV9EiTyAwdhwnZrHfwl+Kq6UvPAIhAO2EVPGsQ1wHRJf8PCJQCI7QcGn5lfoX8wTiOEIQlMDL"
+    "signedAt": 1792193533914,
+    "signature": "MEUCIA92lYvdeNm\/dGlw0HaifKUvopM02pXvr\/3bXn2r3J4LAiEAnI9wWy0mXKBW9RS64+IYuJdWAgTz\/2uWSEU3IxJ\/UM8="
   }
 }
