@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792870340918,
+  "updatedAt": 1792873691302,
   "sites": [
     {
       "id": "cinehd",
@@ -780,7 +780,7 @@
       "name": "Prime Video Catalogue",
       "url": "https:\/\/notme-prime-hosted.pages.dev\/",
       "iconUrl": "",
-      "description": "Independent hosted catalogue using Prime Video public pages; no Amazon login or protected playback.",
+      "description": "",
       "category": "movies",
       "dnsMode": "inherit",
       "adBlockMode": "inherit",
@@ -1020,7 +1020,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792870340921,
-    "signature": "MEYCIQDoK0gldfQGp+KWlXU4EhDE8ODxAeTfXU4XkTJkiMQbIAIhALEpf6JDWiOG\/AQV4olDFbNr8VKzFO+4q9CZnhg4ILfX"
+    "signedAt": 1792873691306,
+    "signature": "MEQCIHUvDGWyZjMts0wrfztlBuiAG\/BNARpbZr1XSR8RXY80AiAKZZ3SLwAc4NCRIjKwDhjC0IprSCNOcVt4D\/NWQ3hYGg=="
   }
 }
