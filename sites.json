@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792832342476,
+  "updatedAt": 1792870340918,
   "sites": [
     {
       "id": "cinehd",
@@ -774,6 +774,49 @@
       "fallbackUrl": "",
       "forceFallback": false,
       "timeoutSeconds": 15
+    },
+    {
+      "id": "notme.prime.public",
+      "name": "Prime Video Catalogue",
+      "url": "https:\/\/notme-prime-hosted.pages.dev\/",
+      "iconUrl": "",
+      "description": "Independent hosted catalogue using Prime Video public pages; no Amazon login or protected playback.",
+      "category": "movies",
+      "dnsMode": "inherit",
+      "adBlockMode": "inherit",
+      "popupBlockMode": "inherit",
+      "redirectProtectionMode": "inherit",
+      "enabled": true,
+      "experience": "web-catalogue",
+      "catalogueManifestUrl": "https:\/\/notme-prime-hosted.pages.dev\/manifest.json?utm_source=chatgpt.com",
+      "cookies": [],
+      "playerCompatibility": false,
+      "playerProbeCompatibility": false,
+      "deepPlayerCompatibility": false,
+      "enhancedBlocking": false,
+      "regularBlockingWithEnhanced": false,
+      "chromeUa": false,
+      "desktopMode": false,
+      "customUserAgent": "",
+      "useWideViewPort": true,
+      "loadWithOverviewMode": true,
+      "allowProtectedMedia": false,
+      "customTabMode": false,
+      "allowSignInRedirects": false,
+      "googleAuthRedirects": false,
+      "navigationAllowHosts": [],
+      "secureExternalAuth": false,
+      "externalAuthRules": [],
+      "passwordlessEmailAuth": false,
+      "passwordlessLoginUrl": "",
+      "passwordlessWebViewRules": [],
+      "passwordlessBlockedOAuthRules": [],
+      "announcement": "",
+      "showGeneralAnnouncement": true,
+      "fallbackUrls": [],
+      "fallbackUrl": "",
+      "forceFallback": false,
+      "timeoutSeconds": 15
     }
   ],
   "categories": [
@@ -977,7 +1020,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792832342480,
-    "signature": "MEUCIAhGN67kxCEp7aTXN82dbDGQKXBtYadwsyEb\/EhULpfVAiEAxhQS02d8lQK5pPMkiJU76TcK0T5ZEOKyuP7Ik+wiJrc="
+    "signedAt": 1792870340921,
+    "signature": "MEYCIQDoK0gldfQGp+KWlXU4EhDE8ODxAeTfXU4XkTJkiMQbIAIhALEpf6JDWiOG\/AQV4olDFbNr8VKzFO+4q9CZnhg4ILfX"
   }
 }
