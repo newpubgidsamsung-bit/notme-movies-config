@@ -1,18 +1,6 @@
+
 #!/usr/bin/env python3
-"""Low-impact NotmeMovies proxy-pool refresher.
-
-Safety design:
-- Fetches a small number of candidates from a few public list providers.
-- Does NOT connect through or actively scan candidate proxies from GitHub runners.
-- Deduplicates and validates syntax/IP ranges.
-- Replaces proxyServers only for enabled managed users.
-- Preserves the previous pool if too few candidates are fetched.
-- Produces deterministic ordering so unchanged pools do not generate commits.
-
-The Android app already remembers successful proxies, skips recently failed ones,
-and moves through the assigned list automatically. That is where liveness failover
-belongs; GitHub Actions is only used as a light candidate-list distributor.
-"""
+"""Refresh unsigned proxy candidates without editing signed sites.json."""
 
 from __future__ import annotations
 
@@ -23,155 +11,205 @@ import re
 import sys
 import time
 from pathlib import Path
-from typing import Iterable
-from urllib.parse import urlparse
 
 import requests
 
-CONFIG = Path(os.environ.get("NOTME_SITES_CONFIG", "sites.json"))
+OUTPUT = Path(os.environ.get("NOTME_PROXY_OUTPUT", "proxy-pool.json"))
 POOL_LIMIT = max(8, min(80, int(os.environ.get("NOTME_PROXY_LIMIT", "40"))))
 MIN_POOL = max(3, min(POOL_LIMIT, int(os.environ.get("NOTME_MIN_POOL", "8"))))
 SOURCE_LIMIT = max(10, min(100, int(os.environ.get("NOTME_SOURCE_LIMIT", "60"))))
 TIMEOUT = (8, 12)
-UA = "NotmeMovies-ProxyPool/2.0 (+configuration refresh; no proxy scanning)"
+UA = "NotmeMovies-ProxyPool/3.0"
 
 SOURCES = (
-    ("ProxyScrape HTTP", "https://api.proxyscrape.com/v4/free-proxy-list/get?request=display_proxies&proxy_format=protocolipport&format=text&protocol=http&country=all"),
-    ("HProxy", "https://raw.githubusercontent.com/hproxy-com/free-proxy-list/main/live.txt"),
-    ("GeoNode", f"https://proxylist.geonode.com/api/proxy-list?page=1&limit={SOURCE_LIMIT}&sort_by=responseTime&sort_type=asc"),
+    (
+        "ProxyScrape HTTP",
+        "https://api.proxyscrape.com/v4/free-proxy-list/get"
+        "?request=display_proxies&proxy_format=protocolipport"
+        "&format=text&protocol=http&country=all"
+    ),
+    (
+        "HProxy",
+        "https://raw.githubusercontent.com/hproxy-com/"
+        "free-proxy-list/main/live.txt"
+    ),
+    (
+        "GeoNode",
+        "https://proxylist.geonode.com/api/proxy-list"
+        f"?page=1&limit={SOURCE_LIMIT}"
+        "&sort_by=responseTime&sort_type=asc"
+    ),
 )
 
-HOSTPORT_RE = re.compile(r"^(?:(https?|socks5?|socks)://)?([^:/\s]+):(\d{1,5})$", re.I)
+HOSTPORT_RE = re.compile(
+    r"^(?:(https?|socks5?|socks)://)?([^:/\s]+):(\d{1,5})$",
+    re.I
+)
 
 
 def allowed_ip(host: str) -> bool:
     try:
         ip = ipaddress.ip_address(host)
+        return isinstance(ip, ipaddress.IPv4Address) and ip.is_global
     except ValueError:
-        # Hostnames are allowed syntactically; providers normally return IPs.
-        return bool(re.fullmatch(r"[A-Za-z0-9.-]{1,253}", host))
-    return not (
-        ip.is_private
-        or ip.is_loopback
-        or ip.is_link_local
-        or ip.is_multicast
-        or ip.is_reserved
-        or ip.is_unspecified
-    )
+        return False
 
 
 def normalize_proxy(value: str, default_scheme: str = "http") -> str | None:
-    value = (value or "").strip()
-    if not value:
+    match = HOSTPORT_RE.fullmatch((value or "").strip())
+    if not match:
         return None
-    m = HOSTPORT_RE.match(value)
-    if not m:
-        return None
-    scheme = (m.group(1) or default_scheme).lower()
-    if scheme == "socks5":
+
+    scheme = (match.group(1) or default_scheme).lower()
+    if scheme in {"socks5", "socks4"}:
         scheme = "socks"
+
     if scheme not in {"http", "https", "socks"}:
         return None
-    host = m.group(2).strip("[]")
-    port = int(m.group(3))
-    if port < 1 or port > 65535 or not allowed_ip(host):
+
+    host = match.group(2)
+    port = int(match.group(3))
+
+    if not 1 <= port <= 65535 or not allowed_ip(host):
         return None
+
     return f"{scheme}://{host}:{port}"
 
 
 def request(url: str) -> requests.Response:
     last = None
+
     for attempt in range(2):
         try:
-            r = requests.get(url, headers={"User-Agent": UA, "Accept": "*/*"}, timeout=TIMEOUT)
-            if r.status_code == 429:
-                retry = min(30, max(2, int(r.headers.get("Retry-After", "5") or "5")))
-                if attempt == 0:
-                    time.sleep(retry)
-                    continue
-            r.raise_for_status()
-            return r
+            response = requests.get(
+                url,
+                headers={"User-Agent": UA, "Accept": "*/*"},
+                timeout=TIMEOUT,
+            )
+
+            if response.status_code == 429 and attempt == 0:
+                retry = int(response.headers.get("Retry-After", "5") or "5")
+                time.sleep(min(12, max(2, retry)))
+                continue
+
+            response.raise_for_status()
+            return response
+
         except requests.RequestException as exc:
             last = exc
             if attempt == 0:
                 time.sleep(2)
-    raise RuntimeError(f"request failed: {last}")
+
+    raise RuntimeError(f"Source request failed: {last}")
 
 
-def parse_text(text: str) -> list[str]:
-    out: list[str] = []
-    for raw in text.splitlines():
+def parse_text(value: str) -> list[str]:
+    out = []
+
+    for raw in value.splitlines():
         proxy = normalize_proxy(raw)
         if proxy and proxy not in out:
             out.append(proxy)
+
         if len(out) >= SOURCE_LIMIT:
             break
+
     return out
 
 
 def parse_geonode(payload: dict) -> list[str]:
-    out: list[str] = []
-    for item in payload.get("data") or []:
-        host = str(item.get("ip") or "").strip()
-        port = str(item.get("port") or "").strip()
-        protocols = [str(x).lower() for x in (item.get("protocols") or [])]
-        scheme = "https" if "https" in protocols else "http" if "http" in protocols else "socks" if any(x.startswith("socks") for x in protocols) else "http"
+    out = []
+
+    for row in payload.get("data") or []:
+        host = str(row.get("ip") or "").strip()
+        port = str(row.get("port") or "").strip()
+        protocols = [
+            str(x).lower()
+            for x in (row.get("protocols") or [])
+        ]
+
+        if "https" in protocols:
+            scheme = "https"
+        elif "http" in protocols:
+            scheme = "http"
+        elif any(x.startswith("socks") for x in protocols):
+            scheme = "socks"
+        else:
+            scheme = "http"
+
         proxy = normalize_proxy(f"{scheme}://{host}:{port}")
         if proxy and proxy not in out:
             out.append(proxy)
+
         if len(out) >= SOURCE_LIMIT:
             break
+
     return out
 
 
 def fetch_candidates() -> list[str]:
-    merged: set[str] = set()
+    merged = set()
+
     for name, url in SOURCES:
         try:
-            r = request(url)
+            response = request(url)
+
             if "geonode.com" in url:
-                values = parse_geonode(r.json())
+                values = parse_geonode(response.json())
             else:
-                values = parse_text(r.text)
+                values = parse_text(response.text)
+
             merged.update(values[:SOURCE_LIMIT])
             print(f"{name}: accepted {len(values[:SOURCE_LIMIT])} candidates")
+
         except Exception as exc:
             print(f"WARNING: {name} skipped: {exc}", file=sys.stderr)
-    # Stable order prevents needless commits caused only by provider ordering.
+
     return sorted(merged)[:POOL_LIMIT]
 
 
 def main() -> int:
-    if not CONFIG.exists():
-        print(f"ERROR: {CONFIG} not found", file=sys.stderr)
+    if OUTPUT.resolve().name == "sites.json":
+        print("REFUSING to edit signed sites.json", file=sys.stderr)
         return 2
-    root = json.loads(CONFIG.read_text(encoding="utf-8"))
-    users = root.get("proxyUsers")
-    if not isinstance(users, list):
-        print("No proxyUsers array; nothing to refresh.")
-        return 0
 
     candidates = fetch_candidates()
+
     if len(candidates) < MIN_POOL:
-        print(f"Only {len(candidates)} candidates fetched (< {MIN_POOL}); preserving existing pools.")
+        print(
+            f"Only {len(candidates)} candidates (< {MIN_POOL}); "
+            "keeping previous pool"
+        )
         return 0
 
-    changed = 0
-    for user in users:
-        if not isinstance(user, dict) or not user.get("enabled", False):
-            continue
-        old = [str(x).strip() for x in (user.get("proxyServers") or []) if str(x).strip()]
-        if old != candidates:
-            user["proxyServers"] = candidates
-            changed += 1
+    try:
+        prior = json.loads(OUTPUT.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        prior = {}
 
-    if changed == 0:
-        print("Enabled users already have the current candidate pool; no file change.")
+    if (
+        prior.get("schema") == 1
+        and prior.get("proxyServers") == candidates
+    ):
+        print("Proxy candidate pool unchanged.")
         return 0
 
-    root["updatedAt"] = int(time.time() * 1000)
-    CONFIG.write_text(json.dumps(root, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Updated {changed} enabled managed user(s) with {len(candidates)} candidates.")
+    payload = {
+        "schema": 1,
+        "updatedAt": int(time.time() * 1000),
+        "proxyServers": candidates,
+    }
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
+
+    print(
+        f"Published {len(candidates)} candidates to {OUTPUT}; "
+        "sites.json untouched"
+    )
     return 0
 
 
