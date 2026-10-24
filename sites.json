@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792873691302,
+  "updatedAt": 1792873707865,
   "sites": [
     {
       "id": "cinehd",
@@ -777,7 +777,7 @@
     },
     {
       "id": "notme.prime.public",
-      "name": "Prime Video Catalogue",
+      "name": "Prime Video",
       "url": "https:\/\/notme-prime-hosted.pages.dev\/",
       "iconUrl": "",
       "description": "",
@@ -1020,7 +1020,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792873691306,
-    "signature": "MEQCIHUvDGWyZjMts0wrfztlBuiAG\/BNARpbZr1XSR8RXY80AiAKZZ3SLwAc4NCRIjKwDhjC0IprSCNOcVt4D\/NWQ3hYGg=="
+    "signedAt": 1792873707869,
+    "signature": "MEUCIQCGqoGNut3f9pTcyLMZpEMRuUEEi+pu+6nRX3S\/OOUznwIgLa356LcKFPOjm3BiHpeloONWqQoLoN7Q4RhpKxURGiY="
   }
 }
