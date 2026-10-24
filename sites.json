@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792832203973,
+  "updatedAt": 1792832272850,
   "sites": [
     {
       "id": "cinehd",
@@ -958,7 +958,7 @@
   "announcement": "",
   "network": {
     "generalAdBlockingEnabled": true,
-    "dnsEnabled": false,
+    "dnsEnabled": true,
     "dnsDohUrl": "https:\/\/dns.adguard-dns.com\/dns-query"
   },
   "subtitles": {
@@ -977,7 +977,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792832203976,
-    "signature": "MEYCIQC6HtZhW364\/ZSv3T8Ejw1JhuuKhL2mFErMq0QkfPU4CwIhAIOr6Xh3OZ1qk8Dzkx7RLnCNp1z5ABk1GgNzu7xOETk9"
+    "signedAt": 1792832272853,
+    "signature": "MEQCIGJ+C2MUoltxW\/MrY0\/NklQvXgf8G5PcWetTjO6pasCWAiBvyAw6K6lgNpjzoxh6sd5Ja8ieNCwi78\/X0sg\/kEU2iQ=="
   }
 }
