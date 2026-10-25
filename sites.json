@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792903199891,
+  "updatedAt": 1792904032309,
   "sites": [
     {
       "id": "cinehd",
@@ -787,13 +787,14 @@
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
       "enabled": true,
-      "experience": "netflix-catalogue",
+      "experience": "prime-catalogue",
       "cataloguePlayback": "panel-browser",
       "playerReferrerPolicy": "origin",
       "catalogueProviders": [
         "cinehd",
         "fmovies",
-        "tinyzone"
+        "tinyzone",
+        "streamzy"
       ],
       "cookies": [],
       "playerCompatibility": false,
@@ -1026,7 +1027,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792903199894,
-    "signature": "MEQCID3JeaeokwZPvEMzuZZEZLxBLjxDWXzliFGX2Q9A3Hn2AiByC9syrZ0lFuvn2vvBF+PFA5l3dXQ9LSduCEyH2cPpCw=="
+    "signedAt": 1792904032312,
+    "signature": "MEUCIQCh75vtMXm1PvSQSh8p2pV8Oz1Kt7scgSYGebW0ll6LHAIgL8ksJNbWhC1tE2ZkKQvD63I6eOc52USEZZpxWGwMBdU="
   }
 }
