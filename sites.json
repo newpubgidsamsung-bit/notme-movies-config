@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792873707865,
+  "updatedAt": 1792903199891,
   "sites": [
     {
       "id": "cinehd",
@@ -776,9 +776,9 @@
       "timeoutSeconds": 15
     },
     {
-      "id": "notme.prime.public",
+      "id": "prime-video",
       "name": "Prime Video",
-      "url": "https:\/\/notme-prime-hosted.pages.dev\/",
+      "url": "https:\/\/www.primevideo.com\/?notme_catalogue=1",
       "iconUrl": "",
       "description": "",
       "category": "movies",
@@ -787,8 +787,14 @@
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
       "enabled": true,
-      "experience": "web-catalogue",
-      "catalogueManifestUrl": "https:\/\/notme-prime-hosted.pages.dev\/manifest.json?utm_source=chatgpt.com",
+      "experience": "netflix-catalogue",
+      "cataloguePlayback": "panel-browser",
+      "playerReferrerPolicy": "origin",
+      "catalogueProviders": [
+        "cinehd",
+        "fmovies",
+        "tinyzone"
+      ],
       "cookies": [],
       "playerCompatibility": false,
       "playerProbeCompatibility": false,
@@ -1020,7 +1026,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792873707869,
-    "signature": "MEUCIQCGqoGNut3f9pTcyLMZpEMRuUEEi+pu+6nRX3S\/OOUznwIgLa356LcKFPOjm3BiHpeloONWqQoLoN7Q4RhpKxURGiY="
+    "signedAt": 1792903199894,
+    "signature": "MEQCID3JeaeokwZPvEMzuZZEZLxBLjxDWXzliFGX2Q9A3Hn2AiByC9syrZ0lFuvn2vvBF+PFA5l3dXQ9LSduCEyH2cPpCw=="
   }
 }
