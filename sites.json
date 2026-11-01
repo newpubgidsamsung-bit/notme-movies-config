@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1792904032309,
+  "updatedAt": 1793554623028,
   "sites": [
     {
       "id": "cinehd",
@@ -824,6 +824,48 @@
       "fallbackUrl": "",
       "forceFallback": false,
       "timeoutSeconds": 15
+    },
+    {
+      "id": "manga-go",
+      "name": "Manga Go",
+      "url": "https:\/\/www.mangago.me\/",
+      "iconUrl": "",
+      "description": "",
+      "category": "movies",
+      "dnsMode": "inherit",
+      "adBlockMode": "inherit",
+      "popupBlockMode": "inherit",
+      "redirectProtectionMode": "inherit",
+      "enabled": true,
+      "experience": "website",
+      "cookies": [],
+      "playerCompatibility": false,
+      "playerProbeCompatibility": false,
+      "deepPlayerCompatibility": false,
+      "enhancedBlocking": false,
+      "regularBlockingWithEnhanced": false,
+      "chromeUa": false,
+      "desktopMode": false,
+      "customUserAgent": "",
+      "useWideViewPort": true,
+      "loadWithOverviewMode": true,
+      "allowProtectedMedia": false,
+      "customTabMode": false,
+      "allowSignInRedirects": false,
+      "googleAuthRedirects": false,
+      "navigationAllowHosts": [],
+      "secureExternalAuth": false,
+      "externalAuthRules": [],
+      "passwordlessEmailAuth": false,
+      "passwordlessLoginUrl": "",
+      "passwordlessWebViewRules": [],
+      "passwordlessBlockedOAuthRules": [],
+      "announcement": "",
+      "showGeneralAnnouncement": true,
+      "fallbackUrls": [],
+      "fallbackUrl": "",
+      "forceFallback": false,
+      "timeoutSeconds": 15
     }
   ],
   "categories": [
@@ -1027,7 +1069,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1792904032312,
-    "signature": "MEUCIQCh75vtMXm1PvSQSh8p2pV8Oz1Kt7scgSYGebW0ll6LHAIgL8ksJNbWhC1tE2ZkKQvD63I6eOc52USEZZpxWGwMBdU="
+    "signedAt": 1793554623034,
+    "signature": "MEYCIQCb+Q0EZ6bM6mhyrw2V06NOLq3k1mUlYZKarfoS8Xz+HAIhAPoQEtJD477hE64HbLDfOtNXny6hPtWyUZ\/IfsEYaI8s"
   }
 }
