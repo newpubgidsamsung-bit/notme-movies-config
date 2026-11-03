@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1793742247804,
+  "updatedAt": 1793742303528,
   "sites": [
     {
       "id": "cinehd",
@@ -809,6 +809,49 @@
       "fallbackUrl": "",
       "forceFallback": false,
       "timeoutSeconds": 15
+    },
+    {
+      "id": "notme-prime-hosted",
+      "name": "Prime Video",
+      "url": "https:\/\/notme-prime-hosted.pages.dev\/",
+      "iconUrl": "https:\/\/notme-prime-hosted.pages.dev\/favicon.svg",
+      "description": "",
+      "category": "movies",
+      "dnsMode": "inherit",
+      "adBlockMode": "inherit",
+      "popupBlockMode": "inherit",
+      "redirectProtectionMode": "inherit",
+      "enabled": true,
+      "experience": "web-catalogue",
+      "catalogueManifestUrl": "https:\/\/notme-prime-hosted.pages.dev\/manifest.json",
+      "cookies": [],
+      "playerCompatibility": false,
+      "playerProbeCompatibility": false,
+      "deepPlayerCompatibility": false,
+      "enhancedBlocking": false,
+      "regularBlockingWithEnhanced": false,
+      "chromeUa": false,
+      "desktopMode": false,
+      "customUserAgent": "",
+      "useWideViewPort": true,
+      "loadWithOverviewMode": true,
+      "allowProtectedMedia": false,
+      "customTabMode": false,
+      "allowSignInRedirects": false,
+      "googleAuthRedirects": false,
+      "navigationAllowHosts": [],
+      "secureExternalAuth": false,
+      "externalAuthRules": [],
+      "passwordlessEmailAuth": false,
+      "passwordlessLoginUrl": "",
+      "passwordlessWebViewRules": [],
+      "passwordlessBlockedOAuthRules": [],
+      "announcement": "",
+      "showGeneralAnnouncement": true,
+      "fallbackUrls": [],
+      "fallbackUrl": "",
+      "forceFallback": false,
+      "timeoutSeconds": 15
     }
   ],
   "categories": [
@@ -1012,7 +1055,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1793742247806,
-    "signature": "MEYCIQCuh2c7jihcBZ6Ojtqli09uNEmgU4QWhXkuWnYONYou3gIhALHsF\/7TlfqCaLVpPB+SpFYPEL1M0ziA7enNX1eVOncl"
+    "signedAt": 1793742303530,
+    "signature": "MEYCIQDKEyoF0O\/FsaGJuxgjO1EYAJm8um05g3eHa4F7GkTs5QIhAPpAJCqMEGtQ9Li7ER2fdHlxpRt3QNTpkBzT+jzJJdy1"
   }
 }
