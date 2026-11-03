@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1793743519451,
+  "updatedAt": 1793743544691,
   "sites": [
     {
       "id": "cinehd",
@@ -818,7 +818,7 @@
       "description": "",
       "category": "movies",
       "dnsMode": "inherit",
-      "adBlockMode": "inherit",
+      "adBlockMode": "off",
       "popupBlockMode": "inherit",
       "redirectProtectionMode": "inherit",
       "enabled": true,
@@ -1055,7 +1055,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1793743519453,
-    "signature": "MEUCIQD29LOlU7Z7QfohN+Sud6FWFeIrLld7IEBzOnFYOuBkGgIgJDgojHDeOojsUd7msViE515aYxdAImgs1DqiXTJR4Ps="
+    "signedAt": 1793743544695,
+    "signature": "MEUCIQDpDIMLIXk2Woi5LFxmQT0W8UmKZn22mra1O4h8uGKulgIgenWG9UHYd21ipzasFNm5HwTNBJIzKFoPxjCAUCeFT4A="
   }
 }
