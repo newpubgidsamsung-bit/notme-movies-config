@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1793743514393,
+  "updatedAt": 1793743519451,
   "sites": [
     {
       "id": "cinehd",
@@ -777,7 +777,7 @@
       "dnsMode": "on",
       "adBlockMode": "off",
       "popupBlockMode": "on",
-      "redirectProtectionMode": "off",
+      "redirectProtectionMode": "on",
       "enabled": true,
       "experience": "web-catalogue",
       "catalogueManifestUrl": "https:\/\/notme-netflix-hosted.valorantstreamnotme.workers.dev\/manifest.json",
@@ -1055,7 +1055,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1793743514396,
-    "signature": "MEYCIQCxJSWZNuFHHe4bPEs3Csg8Q3DuvKq09Q1eQ9rArcoAlgIhAMG\/1NCuwwJm1fkrFWwGIRgicti0Yrc8WETAoGUKAqaE"
+    "signedAt": 1793743519453,
+    "signature": "MEUCIQD29LOlU7Z7QfohN+Sud6FWFeIrLld7IEBzOnFYOuBkGgIgJDgojHDeOojsUd7msViE515aYxdAImgs1DqiXTJR4Ps="
   }
 }
