@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1793826225396,
+  "updatedAt": 1793828337281,
   "sites": [
     {
       "id": "cinehd",
@@ -855,7 +855,7 @@
     },
     {
       "id": "notme-world-hosted",
-      "name": "World TV",
+      "name": "IP TV",
       "url": "https:\/\/notme-world-hosted.valorantstreamnotme.workers.dev\/",
       "iconUrl": "https:\/\/notme-world-hosted.valorantstreamnotme.workers.dev\/icon.png",
       "description": "Worldwide live channels, sports, movies and series.",
@@ -1098,7 +1098,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1793826225399,
-    "signature": "MEQCIGmn8Aai0ooCthtseXH1fjIuAqSDBTw3MEy\/vGhLBkovAiBXu6RFFb\/tVAKM\/8gFjXYtnIE8u3TiB3Vz2e\/1XfyTEA=="
+    "signedAt": 1793828337284,
+    "signature": "MEQCIGl5Q\/Zhi5Nc5e80sI3Wa+lCmyksG3DIWWq1kuxnF9zqAiBBdwi2KJmRHUKPPF7lsHVRktArUL6Ej3idIlLqlMAPKQ=="
   }
 }
