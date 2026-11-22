@@ -1,6 +1,6 @@
 {
   "schema": 18,
-  "updatedAt": 1793938306094,
+  "updatedAt": 1795306867229,
   "sites": [
     {
       "id": "cinehd",
@@ -1073,6 +1073,12 @@
       "name": "MediaFusion | ElfHosted",
       "manifestUrl": "https:\/\/mediafusion.elfhosted.com\/D-hRJ42A4HAJ7DlJBwbg5URcrHuK4IzRXQUVYk9iFxhjtu4oKBCS30o8j9kQ3M9WFeAX78HX6lRtMiR5T2GcoS8l9sW_tzauERA7xdzt6w6O_aIwzgThZVKPy5ay4YJdkTtJQMzi9CM9nuoWLkLyAbky-56tnsWcTnPRQNQgJFgBcTQfaUd4u5oq_53VyPAg7tqks1QyIWCAudoQsRn7EimiWoHoT7GJMgVQ6i9BrnyZ2mxYxCdzn0j_YE5AGKoCUf2FPQckAwtLBUgLWahOeCPvlXvcksvdxRMchAe-xFCC5geQVPXtgZTAfZiSlednk_zILTU19o8YD4z9aobQFIuI4-3nRkwQMAVyAjQ4C--uq3RG0fc-ilwZR23i4goauxJ9H9J-esnRx7R1qJGSpW8fvrWg2MpnJPVxZ8xuK7-CirggDSEeVOuTI4W5-3w-8uwhUt26pq4192i-PpowymgMkcbQTrmbBNtzmtwRUBkjEK76hSkRFIY-7EyV_Z1GQnYZom9Y_YNe1Q6pOISyItmuH0KhTsQ8ArZTj4-5H36ZQl89BBS9B1J-g8EWQTK_ExbXZ-GObq0OXT7nkkyWlhIr8u5WClXQY02RW39hzqF0qAJe2Iy0pEphU_j4U-p7F7LOX-ZZVi-FYCdiPBq83wSOa5YV1YX6dRJ3PwePAxPHRumCx6btdQmmoOvvlCbjbZOkCQcLd0IaGIVibvCzHM9APFLtbK6b87jCcYYJMmQXw_K4E2T7tzFJ287allfZDzYUj59BDDOzIG6N3cUbksnQFo3L2kS6L6aAgiGxtd9YjSpx9-BEL1-Jj5ZlzoK8HsMo8VAsZzY-KFBS4bqzio1uHCczlpX7QxJkl3CwtD35zGm0sr6WL9Otg_prxj4o3veJjjRzHFipQY4GitVERmODPQohokXRIkARru1U7nFwG3EsX0JkkjTEGfcy3QZwQzq2QLmoch4ayT3UCFQ26ynp0NI7MIy9sTi0weBTABNcW9GyDZ75WJRTKf2sdvxHeIaRPfvz5FmIknyuQEj7JLhw\/manifest.json",
       "enabled": true
+    },
+    {
+      "id": "community.einthusantv",
+      "name": "EinthusanTV",
+      "manifestUrl": "https:\/\/einthusan.asaddon.com\/manifest.json",
+      "enabled": true
     }
   ],
   "filters": "block *.doubleclick.net\/*\nblock pagead2.googlesyndication.com\/*\nblock *\/ads\/*\nBlock cdn2.einthusan.io\/promo\/get_premium.mp4\nallow einthusan.tv\/ajax\/movie\/watch\/*\r\nallow *.einthusan.io\/*\r\nallow imasdk.googleapis.com\/js\/sdkloader\/*",
@@ -1098,7 +1104,7 @@
     "algorithm": "SHA256withECDSA",
     "keyId": "1C1D60D43C9F704A",
     "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8FpEzzK0H78fJ\/Gzw\/ldLJXI8BheArtZ1O97ezgevmX3GPV3TIoEXCBKH38REgsqBxTVL9xmb70AvPWT8bll2Q==",
-    "signedAt": 1793938306097,
-    "signature": "MEQCIBrvlixNGJcePb+Vu8UrtMis4QqCYvArji7ZpeoVckYHAiB2PLJRXKcITuZB4FKTrA6uz\/e4MVbRK7oEIFAN5Ix36g=="
+    "signedAt": 1795306867232,
+    "signature": "MEYCIQDJZJJwfZw\/dmsvQZDxwy1a1VXsCOeYjsyR+bm6NyrstgIhAJhpHYtADipbcbXKP7exuSXWn04UiqYTaZmD7UoetuW4"
   }
 }
